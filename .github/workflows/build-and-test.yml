@@ -79,7 +79,7 @@ jobs:
     steps:
       - uses: actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd # v5.0.1
 
-      - uses: lukka/get-cmake@628dd514bed37cb0a609e84a6186cbbaa2fc0140 # latest
+      - uses: lukka/get-cmake@f176ccd3f28bda569c43aae4894f06b2435a3375 # latest
 
       - name: configure cmake
         run: >
