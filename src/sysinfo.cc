@@ -53,6 +53,10 @@ struct IUnknown;
 #include <pthread.h>
 #endif
 
+#if defined(BENCHMARK_OS_FREEBSD)
+#include <pthread_np.h>
+#endif
+
 #if defined(BENCHMARK_OS_LINUX)
 #include <sys/personality.h>
 #endif
